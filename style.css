@@ -11,9 +11,14 @@ body {
     text-align: center;
     border: 1px solid #fbfbfb;
     border-radius: 5px;
-    background-color: #123e55;
+    background-color: #1d3940;
     padding: 20px;
-    box-shadow: 8px 8px #081c27;
+    box-shadow: 8px 8px #222d33;
+
+}
+.calculator:hover{
+    box-shadow: 0 0 30px rgba(47, 227, 255, 0.877);
+
 }
 input[type="text"] {
     width: 100%;
@@ -25,6 +30,7 @@ input[type="text"] {
     font-size: 16px;
     box-sizing: border-box;
     box-shadow: 4px 4px rgb(47, 44, 44);
+    /* box-shadow: 0 0 30px rgba(47, 227, 255, 0.877); */
 }
 
 input[type="button"] 
